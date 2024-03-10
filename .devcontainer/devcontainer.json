@@ -1,0 +1,12 @@
+{
+    "name": "Ruby CLI App Development",
+    "build": {
+        "context": "..",
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {},
+    "extensions": ["rebornix.Ruby"],
+    "forwardPorts": [],
+    "postCreateCommand": "bundle install",
+    "remoteUser": "root"
+}
