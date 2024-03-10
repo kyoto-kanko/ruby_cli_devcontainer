@@ -29,5 +29,5 @@
     ],
     "forwardPorts": [],
     "postCreateCommand": "bundle install",
-    "remoteUser": "root"
+    "remoteUser": "developer"
 }
