@@ -5,7 +5,21 @@
         "dockerfile": "Dockerfile"
     },
     "settings": {},
-    "extensions": ["rebornix.Ruby"],
+    "extensions": [
+        "Shopify.ruby-extensions-pack",
+        "castwide.solargraph",
+        "misogi.ruby-rubocop",
+        "oderwat.indent-rainbow",
+        "mosapride.zenkaku",
+        "shardulm94.trailing-spaces",
+        "GitHub.copilot-chat",
+        "GitHub.copilot",
+        "eamodio.gitlens",
+        "streetsidesoftware.code-spell-checker",
+        "ms-azuretools.vscode-docker",
+        "MS-CEINTL.vscode-language-pack-ja",
+        "vscode-icons-team.vscode-icons"
+    ],
     "forwardPorts": [],
     "postCreateCommand": "bundle install",
     "remoteUser": "root"
